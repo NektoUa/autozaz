@@ -6,41 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ЗАЗ</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="menumaker.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/png">
 </head>
 
 <body>
-    <header class='header'>
-        <div class="container">
-            <div class="header_body">
-                <a href="#" class="header_logo">
-                    <img src='./img/emblem.png' class="logo" alt="logo">
-                </a>
-                <div class="header_burger">
-                    <span></span>
-                </div>
-                <nav class="header_menu">
-                    <ul class="header_list">
-                        <li>
-                            <a class="header_link" href="#news">Модельний ряд</a></li>
-                        <li>
-                            <a class="header_link" href="#gallery">Новини</a>
+    <header>
+        <div id='cssmenu'>
+            <a href="#" class="header_logo">
+                <img src='./img/emblem.png' class="logo" alt="logo">
+            </a>
+            <ul>
+                <li><a href='#'>МОДЕЛІ</a>
+                    <ul>
+                        <li><a href='#'><img src='./img/emblem.png' class="logo" alt="logo"></a>
+                            <ul>
+
+                                <li><a href='#'><img src='./img/emblem.png' class="logo" alt="logo"></a></li>
+                                <li><a href='#'>Sub Product</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <a class="header_link" href="#wiki">Офіційні дилери</a>
-                        </li>
-                        <li>
-                            <a class="header_link" href="#trollRoute">Сервіс та Аксесуари</a>
-                        </li>
-                        <li>
-                            <a class="header_link" href="#profile">Світ ЗАЗ</a>
+                        <li><a href='#'>Product 2</a>
+                            <ul>
+                                <li><a href='#'>Sub Product</a></li>
+                                <li><a href='#'>Sub Product</a></li>
+                            </ul>
                         </li>
                     </ul>
-                </nav>
-            </div>
+                </li>
+                <li><a href='#'>НОВИНИ</a></li>
+                <li><a href='#'>ОФІЦІЙНІ ДИЛЕРИ</a></li>
+                <li>
+                    <a class="header_link" href="#trollRoute">СЕРВІС ТА АКСЕСУАРИ</a>
+                </li>
+                <li>
+                    <a class="header_link" href="#profile">СВІТ ЗАЗ</a>
+                </li>
+            </ul>
         </div>
     </header>
 
+    <script type="text/javascript" src="menumaker.js"></script>
 </body>
 
 </html>
