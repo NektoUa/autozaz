@@ -1,0 +1,23 @@
+{
+  "name": "autozaz",
+  "version": "1.0.0",
+  "description": "Уявна інтернет-сторінка автосалону ЗАЗ (Запорізький автомобілебудівний завод) станом на кінець 1980-х рр., якби тоді існували сучасні технології.",
+  "main": "menumaker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NektoUa/autozaz.git"
+  },
+  "keywords": [
+    "car"
+  ],
+  "author": "NektoUa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NektoUa/autozaz/issues"
+  },
+  "homepage": "https://github.com/NektoUa/autozaz#readme",
+  "dependencies": {}
+}
