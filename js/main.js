@@ -1,4 +1,4 @@
-let dropdown = document.querySelector('.ff');
+let dropdown = document.querySelector('.has-dropdown');
 dropdown.onclick = () => {
     console.log('fff');
 }
