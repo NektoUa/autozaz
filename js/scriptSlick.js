@@ -1,21 +1,32 @@
 $(document).ready(function () {
-    $('.slider').slick();
+    $('.slider').slick({
+        infinite: true,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        adaptiveHeight: true,
+        fade: true,
+        pauseOnHover: true,
+    });
+    $('.slider-news').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: false,
+        centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        adaptiveHeight: true,
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+
 });
-// $('.slider').slick({
-//     arrows: true,
-//     dots: true,
-//     adaptiveHeight: true,
-//     slidesToShow: 2,
-//     speed: 500,
-//     responsive: [
-//         {
-//             breakpoint: 768,
-//             settings: {
-//                 slidesToShow: 1,
-//             }
-//         }
-//     ]
-// });
-// $('.slider').on('afterChange', function (event, slick, currentSlide) {
-//     console.log(currentSlide);
-// })

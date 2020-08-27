@@ -179,16 +179,16 @@
 {
     font-family: 'slick';
     font-size: 6px;
-    line-height: 20px;
+    line-height: 10px;
 
     position: absolute;
-    top: 0;
+    top: -70px;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 8px;
 
-    content: '•';
+    content: linear-gradient(#acacac, #ff0000);
     text-align: center;
 
     opacity: .25;
