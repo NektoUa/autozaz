@@ -13,7 +13,6 @@ $(document).ready(function () {
         slidesToShow: 2,
         slidesToScroll: 2,
         dots: false,
-        centerMode: true,
         autoplay: true,
         autoplaySpeed: 5000,
         adaptiveHeight: true,
@@ -29,4 +28,4 @@ $(document).ready(function () {
     });
 
 
-});
+}); 
