@@ -53,23 +53,30 @@
   font-size: 18px;
 }
 
+#other {
+  margin: 10px 10px 0px 10px ;
+  
+}
+
 #other h1 {
   text-transform: uppercase;
   color: white;
   font-size: 0.75;
 }
 #test-drive, #repair, #mileage {
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
   height: 600px;
-  padding: 20px;
+  padding: 0px;
+  margin: 0px;
   overflow: hidden;
   text-transform: uppercase;
   color: white;
   font-size: medium;
 }
 
-/* #test-drive{
-   overflow: hidden;
-} */
+.slider-news {
+  margin: 10px;
+}
 .text-other {
 	position:relative;
 	z-index:9999;
@@ -82,14 +89,15 @@
   margin-top: -100px;
 }
 .bg-2 {
-  background-image: url(/img/drive/repair.jpg);
+  background-image: url(/img/drive/repair2.jpg);
   background-size: 100% ;
-  margin-top: -100px;
+  /* height: 100%; */
+  margin-top: -159px;
 }
 .bg-3 {
   background-image: url(/img/drive/mileage.jpeg);
   background-size: 100% ;
-  margin-top: -100px;
+  margin-top: -97px;
 }
 
 .child {
@@ -117,7 +125,8 @@
  }
 
 #repair {
-    /* grid-area: repair; */
+  float: left;
+  width: 50%;
 }
 
 #repair, #mileage, #test-drive h1 {
