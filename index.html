@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
+    <link href="/stacked-cards-master/dist/stackedCards.css" rel="stylesheet" />
+
     <link rel='stylesheet' id='main-stylesheet-css' href='/css/assets/css/foundation.css' type='text/css' media='all' />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" /> -->
 
@@ -205,21 +207,27 @@
         <h2>
             <em>Новини</em>
         </h2>
-        <div class="slider-news">
-            <div class="slider-item-news">
-                <img src="./img/news/zaz speed.jpg" class="image-slick" alt="Автогонки">
-            </div>
-            <div class="slider-item">
-                <img src="./img/news/zaz_model.jpg" class="image-slick" alt="Модельки">
-            </div>
-            <div class="slider-item">
-                <img src="./img/news/zaz_ub.jpg" class="image-slick" alt="Ювілей якості">
-            </div>
-            <div class="slider-item">
-                <img src="./img/news/zaz_slavuta.jpg" class="image-slick" alt="Нові напрямки">
-            </div>
+        <div class="stacked-cards example">
+            <ul>
+                <li>
+                    <img src="./img/news/zaz_model.jpg" class="image-slick" alt="Модельки">
+                </li>
+                <li>
+                    <img src="./img/news/zaz_ub.jpg" class="image-slick" alt="Ювілей якості">
+                </li>
+                <li>
+                    <img src="./img/news/zaz_never.jpg" class="image-slick" alt="Детки">
+                </li>
+                <li>
+                    <img src="./img/news/zaz_slavuta.jpg" class="image-slick" alt="Нові напрямки">
+                </li>
+                <li>
+                    <img src="./img/news/zaz speed.jpg" class="image-slick" alt="Автогонки">
+                </li>
 
+            </ul>
         </div>
+
     </article>
     <article id="other">
         <div id="test-drive">
@@ -374,6 +382,7 @@
     </footer>
     <script type='text/javascript' src='/js/jquery.min.js'></script>
     <script type='text/javascript' src='/js/jquery-migrate-1.4.1.min.js'></script>
+    <script src="/stacked-cards-master/dist/stackedCards.min.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="./js/scriptSlick.js"></script>
     <script type="text/javascript" src="/js/addModels.js"></script>

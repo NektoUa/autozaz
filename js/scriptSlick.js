@@ -11,26 +11,32 @@ $(document).ready(function () {
         pauseOnHover: true,
 
     });
-    $('.slider-news').slick({
-        infinite: true,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        dots: false,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        adaptiveHeight: true,
-        pauseOnHover: true,
-        centerMode: true,
-        responsive: [
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    });
+    // $('.slider-news').slick({
+    //     infinite: true,
+    //     arrows: false,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     dots: false,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     adaptiveHeight: true,
+    //     pauseOnHover: true,
+    //     centerMode: true,
+    //     responsive: [
+    //         {
+    //             breakpoint: 480,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //             }
+    //         }
+    //     ]
+    // });
 
 
-}); 
+});
+
+var stackedCardSlide = new stackedCards({ selector: '.example' });
+
+stackedCardSlide.init();
+
+
