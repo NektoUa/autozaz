@@ -2,11 +2,19 @@ jQuery(document).ready(function () {
     $(function () {
         $(function () {
             $('.model-link').on('click', function () {
-                console.log('fff')
-                $('#models-sub-menu').toggle()
+                $('#models-sub-menu').toggle(function () {
+                    if (window.scrollY > 0) {
+                        $('#models-sub-menu').css({ 'display': 'none' })
+                    }
+                });
             });
         });
     });
+    // $('.model-wrapper').mouseover(function () {
+    // $('figcaption').removeClass('.title')
+    //  => detail
+    // alert('ffffdf')
+    // })
 });
 
 

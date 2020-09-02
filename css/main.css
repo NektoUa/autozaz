@@ -55,6 +55,7 @@
 
 #news {
   text-align: center;
+  margin: 10px;
 }
 
 #other {
@@ -69,7 +70,7 @@
 }
 #test-drive, #repair, #mileage {
   text-shadow: 1px 1px 2px black, 0 0 1em black;
-  height: 600px;
+  height: 500px;
   padding: 0px;
   margin: 0px;
   overflow: hidden;

@@ -11,32 +11,30 @@ $(document).ready(function () {
         pauseOnHover: true,
 
     });
-    // $('.slider-news').slick({
-    //     infinite: true,
-    //     arrows: false,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     dots: false,
-    //     autoplay: true,
-    //     autoplaySpeed: 5000,
-    //     adaptiveHeight: true,
-    //     pauseOnHover: true,
-    //     centerMode: true,
-    //     responsive: [
-    //         {
-    //             breakpoint: 480,
-    //             settings: {
-    //                 slidesToShow: 1,
-    //             }
-    //         }
-    //     ]
-    // });
 
+    $(".owl-carousel").owlCarousel({
+        items: 4,
+        lazyLoad: true,
+        loop: true,
+        margin: 10,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+
+    });
 
 });
-
-var stackedCardSlide = new stackedCards({ selector: '.example' });
-
-stackedCardSlide.init();
 
 
